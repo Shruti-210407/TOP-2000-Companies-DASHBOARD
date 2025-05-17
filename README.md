@@ -1,33 +1,54 @@
 # TOP-2000-Companies-DASHBOARD
 
 💼 Dataset Overview
-This dashboard is powered by the Top 2000 Company Financial Data for 2024, which includes:
-🌍 Company Name & Country
-💰 Sales (B)
-📈 Profit (B)
-🏢 Assets (B)
-🧾 Market Value (B)
-The dataset offers a comprehensive look into how leading global companies are performing financially and where they stand in terms of scale and profitability.
+# 🌍 Top 2000 Global Companies – Financial Dashboard (2024)
 
-📌 What’s Inside the Dashboard
-🔹 Bar Chart – Company-wise Profit
-Shows the Top Companies by Profit, making it easy to compare which firms are generating the most earnings globally.
+This project is an interactive financial dashboard built using real-world data from the **Top 2000 global companies in 2024**. It visualizes key financial metrics such as Sales, Profit, Assets, and Market Value through dynamic charts, flashcards, and filters — helping users explore and analyze business performance across companies and countries.
 
-🗺️ Map – Country-wise Sales
-Visualizes total sales across countries, helping you spot which nations are home to the highest revenue-generating firms.
+---
 
-🔸 Scatter Plot – Assets vs. Profit
-Reveals the relationship between a company’s owned assets and its profit, identifying both efficient and underperforming giants.
+## 🛠️ Task Workflow
 
-📋 Text Table – Market Value & Profit
-A clean table showing company-wise Market Value and Profit, ideal for precise comparisons.
+1. **Data Cleaning**  
+   - Cleaned raw financial data (e.g., converted "$252.9 B" to numeric format)
+   - Standardized missing values and data types for accuracy and analysis
 
-🎛️ Interactive Company Filter
-Use the Company Name filter to instantly focus on a specific firm — all charts update dynamically to reflect that selection.
+2. **Chart Planning**  
+   - Identified meaningful KPIs and comparisons (e.g., Profit vs. Assets, Sales by Country)
+   - Selected appropriate charts for each metric
 
-🧠 Why It Matters
-This dashboard makes it easy to:
-- Compare financial leaders
-- Identify efficient vs. inefficient firms
-- Explore how countries perform economically via corporate data
-- Drill into individual companies with just one click
+3. **Dashboard Layout Design**  
+   - Planned a clean, interactive layout with consistent color schemes and fonts
+   - Ensured responsiveness and clarity across all visuals
+
+4. **Visualizations Built**
+   - ✅ Bar Chart: Company-wise Profit  
+   - ✅ Map: Country-wise Sales  
+   - ✅ Scatter Plot: Assets vs. Profit  
+   - ✅ Text Table: Market Value and Profit  
+   - ✅ KPI Cards/Flashcards: For total Sales, Profit, Assets, and Market Value  
+
+5. **Interactivity**
+   - Added slicers/filters by **Company Name** to make the dashboard fully dynamic  
+   - Included dynamic titles and tooltips for clarity
+
+6. **Deployment & Sharing**
+   - Added external links to **LinkedIn**, **Tableau Public**, **GitHub**, and an **Info Page** for broader reach
+
+
+## 📊 Key Features
+
+- 📈 **Bar Chart**: Highlights the most profitable companies globally
+- 🗺️ **Map**: Shows sales distribution by country
+- 🔘 **Scatter Plot**: Displays relationship between company assets and profit
+- 📋 **Text Table**: Market value and profit for easy comparison
+- 🎯 **KPI Flashcards**: Instant overview of total financials
+- 🎛️ **Dynamic Filters**: Explore data by selecting individual companies
+
+
+## 📦 Tools Used
+
+- **Excel** – For preprocessing and cleaning the dataset  
+- **Tableau** – For building the interactive dashboard  
+- **GitHub** – For project versioning and sharing  
+
